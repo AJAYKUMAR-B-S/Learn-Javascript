@@ -38,7 +38,7 @@ let PersonName = "John"; // ! This will work but not recommended because it is n
 let PI = 3.1415; // * This is Correct Conversion of Variables
 
 */
-
+/*
 let jsIsFun = true;
 
 console.log(jsIsFun);
@@ -57,3 +57,22 @@ console.log(firstName); // * undefined because value is not assigned to the vari
 console.log(typeof undefined); // * type of undefined is "undefined"
 
 console.log(typeof null); // * type of null is an "Object" this is a bug but not corrected because of dependency of legacy code
+*/
+
+let loggedIn = true;
+
+loggedIn = false;
+
+console.log(loggedIn); // * loggedIn is now false because we changed to the new value of false
+
+const loggedOut = true;
+
+// loggedOut = false; // ! It will give you the TypeError because once the value is assigned to the Const dataType we can't change the value
+
+console.log(loggedOut);
+
+var isPurchased = false;
+
+isPurchased = true;
+
+console.log(isPurchased); // * isPurchased is now true because we changed to the new value of true
