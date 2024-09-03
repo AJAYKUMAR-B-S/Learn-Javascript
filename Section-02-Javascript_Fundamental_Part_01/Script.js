@@ -1,3 +1,4 @@
+/*
 let js = "amazing";
 44 + 23 + 12 - 9;
 console.log(44 + 23 + 12 - 9);
@@ -35,3 +36,24 @@ let name = "Ajay"; // ! This will work but not recommended because "name" is als
 let PersonName = "John"; // ! This will work but not recommended because it is not the convention of variables upperCase is used for Constant values in
 
 let PI = 3.1415; // * This is Correct Conversion of Variables
+
+*/
+
+let jsIsFun = true;
+
+console.log(jsIsFun);
+console.log(typeof jsIsFun);
+console.log(typeof 34);
+console.log(typeof "Ajay");
+
+jsIsFun = "YES";
+
+console.log(jsIsFun); // *  Dynamic typing
+
+let firstName;
+
+console.log(firstName); // * undefined because value is not assigned to the variable
+
+console.log(typeof undefined); // * type of undefined is "undefined"
+
+console.log(typeof null); // * type of null is an "Object" this is a bug but not corrected because of dependency of legacy code
