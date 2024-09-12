@@ -81,6 +81,7 @@ console.log(isPurchased); // * isPurchased is now true because we changed to the
 
 // Basic Operators
 
+/*
 const num1 = 10 + 20;
 
 console.log(num1);
@@ -128,3 +129,20 @@ console.log(30 <= 20);
 console.log(10 < 5); // * false
 console.log(10 == 5); // * false because both are different types
 console.log(10 != 5); // * true
+*/
+
+//Opeartor Precedence
+
+let x, y;
+
+x = y = 10 - 20 - 30;
+
+console.log(x, y); // * x will be -40 and y will be -40 Because "-" have higher precedence than "=" Check this official Link to Check precedence of Opeartor "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence"
+
+const a = 30;
+
+const b = 40;
+
+const averageValue = (a + b) / 2; // * grouping have higher precedence than "/"
+
+console.log(a, b, averageValue);
