@@ -150,7 +150,7 @@ console.log(a, b, averageValue);
 */
 
 //String and Template Literals
-
+/*
 const firstName = "Ajay";
 const lastName = "Kumar";
 const job = "Teacher";
@@ -175,3 +175,21 @@ const details1 = `FirstName is -> ${firstName} LastName is -> ${lastName} His/he
 } His /her Email is -> ${email}`;
 
 console.log(details1);
+
+*/
+
+// * Taking Decision  = If Else
+
+const minimumAgeForLicense = 18;
+const birthYearOfPerson = 2009;
+const currentYear = 2025;
+
+if (currentYear - birthYearOfPerson >= minimumAgeForLicense) {
+  console.log(`This Person is Eligible For Driver license, Thank You`);
+} else {
+  console.log(
+    `This Person Should Wait ${
+      minimumAgeForLicense - (currentYear - birthYearOfPerson)
+    } Years For Driver license, Thank You`
+  );
+}
