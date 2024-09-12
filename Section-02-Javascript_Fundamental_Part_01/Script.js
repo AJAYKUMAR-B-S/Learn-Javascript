@@ -59,6 +59,7 @@ console.log(typeof undefined); // * type of undefined is "undefined"
 console.log(typeof null); // * type of null is an "Object" this is a bug but not corrected because of dependency of legacy code
 */
 
+/*
 let loggedIn = true;
 
 loggedIn = false;
@@ -76,3 +77,54 @@ var isPurchased = false;
 isPurchased = true;
 
 console.log(isPurchased); // * isPurchased is now true because we changed to the new value of true
+*/
+
+// Basic Operators
+
+const num1 = 10 + 20;
+
+console.log(num1);
+
+const num2 = 10 - 20;
+
+console.log(num2);
+
+const firstName = "Ajay";
+const lastName = "Kumar";
+
+console.log(firstName, lastName);
+
+//Math operators
+const now = 2024;
+
+const ajayAge = now - 1999;
+const kumarAge = now - 1998;
+
+console.log(ajayAge, kumarAge);
+
+console.log(ajayAge ** 3); // *  When we expand this one it's like ajayAge * ajayAge * ajayAge but shortly we can write like  ajayAge ** 3
+
+let value1 = 10;
+
+value1 += 20; // * When we expand this  value1 = value1 + 20 but shortly we can write like value1 +=20
+
+value1 *= 30;
+
+console.log(value1);
+
+//Assignment operators
+let y = 100;
+
+y++; // * y = y + 1 ;
+y--; // * y = y - 1 ;
+y--; // * y = y -1
+console.log(y);
+
+//Comparison Operators
+
+console.log(10 > 5); // *
+console.log(10 >= 10);
+console.log(30 <= 20);
+console.log(10 < 5); // * false
+console.log(10 == 5); // * false because both are different types
+console.log(10 != 5); // * true
