@@ -199,6 +199,8 @@ if (currentYear - birthYearOfPerson >= minimumAgeForLicense) {
 //Type Conversion and Type Coercion
 
 // Type Conversion
+
+/*
 const inputYear = "2000";
 
 console.log(inputYear + 11);
@@ -233,3 +235,32 @@ console.log(2 + 3 + 4 + "5");
 console.log("10" + "30" + "10" - 10 + "2");
 
 console.log("10" - "3" - "10" - 2 + "5");
+*/
+
+//Truthy anf Falsy Value
+
+// * There are 5 Falsy Values they are : 0 , undefined , " " ,null, NaN
+
+console.log(Boolean(0)); //false
+
+console.log(Boolean(undefined)); //false
+
+console.log(Boolean("")); //false
+
+console.log(Boolean(null)); //false
+
+console.log(Boolean(NaN)); //false
+
+console.log(Boolean("Ajay")); //true
+
+console.log(Boolean(true)); //true
+
+console.log(Boolean(false)); //false
+
+const amount = 0;
+
+if (amount) {
+  console.log("Amount is greater than 0");
+} else {
+  console.log("Amount is less than 0");
+}
