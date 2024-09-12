@@ -180,6 +180,7 @@ console.log(details1);
 
 // * Taking Decision  = If Else
 
+/*
 const minimumAgeForLicense = 18;
 const birthYearOfPerson = 2009;
 const currentYear = 2025;
@@ -193,3 +194,42 @@ if (currentYear - birthYearOfPerson >= minimumAgeForLicense) {
     } Years For Driver license, Thank You`
   );
 }
+  */
+
+//Type Conversion and Type Coercion
+
+// Type Conversion
+const inputYear = "2000";
+
+console.log(inputYear + 11);
+
+//COnvert String to Number
+console.log(Number(inputYear) + 10); // * Number() Function is used to convert String to Number
+console.log(Number("Ajay")); // * IT Returns NaN Output Value
+console.log(typeof NaN); //* IT Returns Output as Number meaning that NaN is also a Number
+
+//COnvert Number to String
+
+console.log(typeof String(2000)); // * String() Function is used to convert Number to String
+
+// Type Coercion
+console.log("I am " + 30 + " Years Old");
+
+console.log("20" + "30" + 2);
+
+console.log("20" - "30" - 2);
+
+console.log("10" * "30");
+console.log("10" / "30");
+
+let n = "1" + 1; // 11
+
+n -= 1; // n= 11-1
+
+console.log(n);
+
+console.log(2 + 3 + 4 + "5");
+
+console.log("10" + "30" + "10" - 10 + "2");
+
+console.log("10" - "3" - "10" - 2 + "5");
