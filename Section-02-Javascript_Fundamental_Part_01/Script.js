@@ -133,6 +133,7 @@ console.log(10 != 5); // * true
 
 //Opeartor Precedence
 
+/*
 let x, y;
 
 x = y = 10 - 20 - 30;
@@ -146,3 +147,31 @@ const b = 40;
 const averageValue = (a + b) / 2; // * grouping have higher precedence than "/"
 
 console.log(a, b, averageValue);
+*/
+
+//String and Template Literals
+
+const firstName = "Ajay";
+const lastName = "Kumar";
+const job = "Teacher";
+const email = "ajay@gmail.com";
+const birthYear = 1999;
+
+const details =
+  "FirstName is -> " +
+  firstName +
+  " LastName is -> " +
+  lastName +
+  " His/her Job is -> " +
+  job +
+  " Age is -> " +
+  (birthYear - 2030) +
+  " His /her Email is -> " +
+  email;
+console.log(details);
+
+const details1 = `FirstName is -> ${firstName} LastName is -> ${lastName} His/her Job is -> ${job} Age is -> ${
+  birthYear - 2040
+} His /her Email is -> ${email}`;
+
+console.log(details1);
