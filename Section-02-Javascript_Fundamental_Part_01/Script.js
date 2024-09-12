@@ -240,7 +240,7 @@ console.log("10" - "3" - "10" - 2 + "5");
 //Truthy anf Falsy Value
 
 // * There are 5 Falsy Values they are : 0 , undefined , " " ,null, NaN
-
+/*
 console.log(Boolean(0)); //false
 
 console.log(Boolean(undefined)); //false
@@ -264,3 +264,20 @@ if (amount) {
 } else {
   console.log("Amount is less than 0");
 }
+*/
+
+//Equality Operators  == and ===
+
+const age = "19";
+
+if (age == 19) console.log("Wow You became an Adult (loose)"); // * It will Execute Because It allow Type Coercion
+
+if (age === 19) console.log("Wow You became an Adult (Strict)"); //* It will not Execute Because It not allow Type Coercion
+
+const inputNum = Number(prompt("What is Your favorite Number "));
+
+console.log(inputNum, typeof inputNum);
+
+if (inputNum == 20) console.log(inputNum + " is Cool Num");
+
+if (inputNum !== 19) console.log("Why not 19");
