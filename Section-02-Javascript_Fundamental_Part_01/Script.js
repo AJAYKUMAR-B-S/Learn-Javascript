@@ -318,7 +318,7 @@ if (personAge >= 18 && !personsHasGoodVision && personClearExam) {
 */
 
 // switch Statement
-
+/*
 const day = "friday";
 
 switch (day) {
@@ -361,3 +361,21 @@ if (day === "sunday") {
 } else {
   console.log("I don't know What day ");
 }
+*/
+
+//Ternary operator
+
+const isAlive = true;
+
+isAlive === true
+  ? console.log("person is alive")
+  : console.log("Sorry, person is not alive");
+
+const liveOrNot =
+  isAlive === true ? "person is alive" : "Sorry, person is not alive";
+
+console.log(liveOrNot);
+
+//We can't use statements inside Template String but we can use Expression like ternary operator
+
+console.log(`person is ${isAlive === true ? "is alive" : "not alive"}`);
