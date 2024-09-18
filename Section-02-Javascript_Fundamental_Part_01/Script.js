@@ -268,6 +268,7 @@ if (amount) {
 
 //Equality Operators  == and ===
 
+/*
 const age = "19";
 
 if (age == 19) console.log("Wow You became an Adult (loose)"); // * It will Execute Because It allow Type Coercion
@@ -281,3 +282,34 @@ console.log(inputNum, typeof inputNum);
 if (inputNum == 20) console.log(inputNum + " is Cool Num");
 
 if (inputNum !== 19) console.log("Why not 19");
+
+*/
+
+//Boolean Logic : And, OR, Not
+
+// Checking if person will get driving license based on condition
+
+const personAge = 17;
+const personsHasGoodVision = false;
+const personClearExam = true;
+
+// Using && operator to check condition
+if (personAge >= 18 && personsHasGoodVision && personClearExam) {
+  console.log("You are eligible for Driving License");
+} else {
+  console.log("You are not eligible for Driving License");
+}
+
+// Using || operator to check condition
+if (personAge >= 18 || personsHasGoodVision || personClearExam) {
+  console.log("You are eligible for Driving License");
+} else {
+  console.log("You are not eligible for Driving License");
+}
+
+// Using (!)Not operator to check condition
+if (personAge >= 18 && !personsHasGoodVision && personClearExam) {
+  console.log("You are eligible for Driving License");
+} else {
+  console.log("You are not eligible for Driving License");
+}
