@@ -289,6 +289,7 @@ if (inputNum !== 19) console.log("Why not 19");
 
 // Checking if person will get driving license based on condition
 
+/*
 const personAge = 17;
 const personsHasGoodVision = false;
 const personClearExam = true;
@@ -312,4 +313,51 @@ if (personAge >= 18 && !personsHasGoodVision && personClearExam) {
   console.log("You are eligible for Driving License");
 } else {
   console.log("You are not eligible for Driving License");
+}
+
+*/
+
+// switch Statement
+
+const day = "friday";
+
+switch (day) {
+  case "sunday":
+    console.log("Today is Sunday");
+    break;
+
+  case "monday":
+    console.log("Today is Monday");
+    break;
+
+  case "friday":
+    console.log("Friday is Javascript Day");
+    break;
+
+  case "tuesday":
+    console.log("tuesday is react day");
+    break;
+
+  case "wednesday":
+    console.log("wednesday is Html day");
+    break;
+
+  default:
+    console.log("I don't know What day ");
+}
+
+// if we write using if else above condition
+
+if (day === "sunday") {
+  console.log("Today is Sunday");
+} else if (day === "monday") {
+  console.log("Today is Monday");
+} else if (day === "tuesday") {
+  console.log("tuesday is react day");
+} else if (day === "wednesday") {
+  console.log("wednesday is Html day");
+} else if (day === "friday") {
+  console.log("Friday is Javascript Day");
+} else {
+  console.log("I don't know What day ");
 }
