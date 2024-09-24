@@ -1,4 +1,4 @@
-/*
+ko/*
 let js = "amazing";
 44 + 23 + 12 - 9;
 console.log(44 + 23 + 12 - 9);
@@ -379,3 +379,5 @@ console.log(liveOrNot);
 //We can't use statements inside Template String but we can use Expression like ternary operator
 
 console.log(`person is ${isAlive === true ? "is alive" : "not alive"}`);
+
+console.log("1"==1);
