@@ -364,18 +364,38 @@ if (day === "sunday") {
 */
 
 //Ternary operator
+// console.log("hello" + 35);
 
-const isAlive = true;
+// console.log(35 - "hello");
 
-isAlive === true
-  ? console.log("person is alive")
-  : console.log("Sorry, person is not alive");
+// console.log("hello" - 35);
 
-const liveOrNot =
-  isAlive === true ? "person is alive" : "Sorry, person is not alive";
+let num = 8;
+if (num === 11) {
+  console.log("Num is 10");
+} else if (num > 9) {
+  console.log("Num is greater than 9");
+} else {
+  console.log("Num is not 10");
+}
 
-console.log(liveOrNot);
+const checkTernary =
+  num === 11
+    ? "Ternary Num is 10"
+    : num > 9
+    ? "Ternary Num is greater than 9"
+    : "Num is not 10";
 
-//We can't use statements inside Template String but we can use Expression like ternary operator
+console.log(checkTernary);
 
-console.log(`person is ${isAlive === true ? "is alive" : "not alive"}`);
+const userAge = 17;
+const userHasVision = true;
+
+const issueDrivingLicense =
+  userAge >= 18
+    ? "Wow user You are an Adult "
+    : userHasVision === true
+    ? "Wow user has good Vision"
+    : "Sorry you don't have a good vision";
+
+console.log(issueDrivingLicense);
