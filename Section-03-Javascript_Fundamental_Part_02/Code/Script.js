@@ -6,7 +6,7 @@ if (personName) personName = false;
 
 // if (!personName) console.log("Person Name is Not Defined");
 
-// * What is Function and Why we need it?
+// ! What is Function and Why we need it?
 // Function is a block of code that can be called multiple times.
 // It helps to perform a specific task and reusable.
 // We use function to avoid repetitive code or DRY (Don't Repeat Yourself) Principle
@@ -33,9 +33,9 @@ displayUserNameAndAge("Ajay", 30); //* This will only log the 26 line which insi
 const result = displayUserNameAndAge("Ajay", 30);
 console.log(result);
 
-// * Function Declaration and Function Expression
+// ! Function Declaration and Function Expression
 
-// * Function Declaration
+// ! Function Declaration
 function calcAge(birthYear) {
   return 2024 - birthYear;
 }
@@ -49,7 +49,7 @@ function calcAge(birthYear) {
   return 2024 - birthYear;
 }
 
-// * Function Expression
+// ! Function Expression
 // * We can't Call The Function Expression Before Initialization it will throw an error
 
 const calcAge2 = function (birthYear) {
@@ -59,3 +59,20 @@ const calcAge2 = function (birthYear) {
 const age = calcAge2(2000);
 
 console.log(age);
+
+// ! Arrow Functions
+
+const calcAge3 = (birthYear) => 2024 - birthYear;
+const ageResult = calcAge3(2001);
+console.log(ageResult);
+
+const remainYearToRetire = (birthYear, currentYear, userName) => {
+  const retireLimit = 65;
+  const calcAge = currentYear - birthYear;
+  const retireResult = `${userName} Remain ${retireLimit - calcAge} to Retire`;
+  return retireResult;
+};
+
+const userRetireResult = remainYearToRetire(1990, 2024, "Raju");
+
+console.log(userRetireResult);
