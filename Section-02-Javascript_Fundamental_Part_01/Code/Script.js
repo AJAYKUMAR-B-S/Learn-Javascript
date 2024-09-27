@@ -1,4 +1,4 @@
-ko; /*
+/*
 let js = "amazing";
 44 + 23 + 12 - 9;
 console.log(44 + 23 + 12 - 9);
