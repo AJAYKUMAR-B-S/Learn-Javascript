@@ -76,3 +76,21 @@ const remainYearToRetire = (birthYear, currentYear, userName) => {
 const userRetireResult = remainYearToRetire(1990, 2024, "Raju");
 
 console.log(userRetireResult);
+
+//! Function calling other Function
+//* This is Arrow Function with multiple ternary conditions
+
+const totalBalance = (amount, accountNum) =>
+  amount > 0 && amount < 500
+    ? `You have ${amount} in your ${accountNum} Account and you have a low balance, 🙏 please maintain minimum balance to avoid any charges `
+    : amount > 500
+    ? `You have ${amount} in your ${accountNum} Account, 😊 congratulation you have maintain minimum balance`
+    : `You don't have amount in your ${accountNum} account`;
+
+const userDetailsAndBalanceDetails = (userName, userAccountNum, amount) => {
+  return `${userName} ${totalBalance(amount, userAccountNum)}`;
+};
+
+console.log(userDetailsAndBalanceDetails("Ajay", "BIR12000876", 200));
+console.log(userDetailsAndBalanceDetails("Raaju", "RIR120008986", 2000));
+console.log(userDetailsAndBalanceDetails("Kumar", "NIR120008643", 0));
