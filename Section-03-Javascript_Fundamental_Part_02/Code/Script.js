@@ -32,3 +32,30 @@ displayUserNameAndAge("Ajay", 30); //* This will only log the 26 line which insi
 
 const result = displayUserNameAndAge("Ajay", 30);
 console.log(result);
+
+// * Function Declaration and Function Expression
+
+// * Function Declaration
+function calcAge(birthYear) {
+  return 2024 - birthYear;
+}
+console.log(calcAge(2000));
+
+// * We can Call The Function Declaration Before Initialization like the Below
+
+console.log(calcAge(2000));
+
+function calcAge(birthYear) {
+  return 2024 - birthYear;
+}
+
+// * Function Expression
+// * We can't Call The Function Expression Before Initialization it will throw an error
+
+const calcAge2 = function (birthYear) {
+  return 2024 - birthYear;
+};
+
+const age = calcAge2(2000);
+
+console.log(age);
