@@ -4,4 +4,31 @@ let personName = true;
 
 if (personName) personName = false;
 
-if (!personName) console.log("Person Name is Not Defined");
+// if (!personName) console.log("Person Name is Not Defined");
+
+// * What is Function and Why we need it?
+// Function is a block of code that can be called multiple times.
+// It helps to perform a specific task and reusable.
+// We use function to avoid repetitive code or DRY (Don't Repeat Yourself) Principle
+
+// * Syntax of Function Declaration
+// function functionName(parameters) {
+// code to be executed
+// }
+
+function displayName() {
+  console.log("Hello, User Name is Ajay");
+}
+
+displayName(); // ! It log the message but We Want function to be reuse
+
+function displayUserNameAndAge(userName, age) {
+  console.log(`Hello, User Name is ${userName} and Age is ${age}`);
+  const returnMessage = `User Name is ${userName} and Age is ${age}`;
+  return returnMessage;
+}
+
+displayUserNameAndAge("Ajay", 30); //* This will only log the 26 line which inside the function if we want to display the 27 line we have to store the value of function inside the new variable
+
+const result = displayUserNameAndAge("Ajay", 30);
+console.log(result);
