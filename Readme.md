@@ -1,10 +1,12 @@
-# **The Complete JavaScript Course  🚀**
+# **The Complete JavaScript Course 2024 🚀**
 
-###  [The Complete JavaScript Course 2024: From Zero to Expert!"](https://www.udemy.com/course/the-complete-javascript-course/) by [Jonas Schmedtmann](https://x.com/jonasschmedtman). This repository is designed for anyone who wants to learn JavaScript from scratch.
+
+### 👋 Welcome to my JavaScript learning journey! This repository includes ***"[The Complete JavaScript Course 2024: From Zero to Expert!"](https://www.udemy.com/course/the-complete-javascript-course/)*** by ***[Jonas Schmedtmann](https://x.com/jonasschmedtman)***, featuring covered content, theory explanations with solutions, code examples, and detailed personal notes.
+
 
  ##  📂 **Contents** ✍️
 
-## 📚 [Javascript_Fundamental_Part_01](./)
+## 📚 [Javascript_Fundamental_Part_01](./Section-02-Javascript_Fundamental_Part_01)
 
  ➡️  ***Topics Covered: -***
  - Introduction to `Javascript`
