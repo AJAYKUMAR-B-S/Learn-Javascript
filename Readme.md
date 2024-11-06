@@ -6,7 +6,7 @@
 
  ##  📂 **Contents** ✍️
 
-## 📚 [Javascript_Fundamental_Part_01](./)
+## 📚 [Javascript_Fundamental_Part_01](./Section-02-Javascript_Fundamental_Part_01)
 
  ➡️  ***Topics Covered: -***
  - Introduction to `Javascript`
