@@ -31,6 +31,6 @@
 - `Ternary` Operator
 
 ➡️ ***Code: -***
-  - 👨‍💻 [Code_Link](./)
+  - 👨‍💻 [Code_Link](./Section-02-Javascript_Fundamental_Part_01/Code)
      
 
