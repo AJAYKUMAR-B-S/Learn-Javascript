@@ -32,5 +32,10 @@
 
 ➡️ ***Code: -***
   - 👨‍💻 [Code_Link](./Section-02-Javascript_Fundamental_Part_01/Code)
+
+
+➡️ ***Detailed Notes of My Own: -***
+- 📘 [Link to Javascript_Fundamental_Part_01_PDF_notes](./)
+- ---
      
 
