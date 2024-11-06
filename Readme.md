@@ -35,6 +35,8 @@
 ➡️ ***Code: -***
   - 👨‍💻 [Code_Link](./Section-02-Javascript_Fundamental_Part_01/Code)
 
+➡️ ***Topics_Covered_Solution: -***
+ - 📘 [Topics_Covered_Solution_link](Section-02-Javascript_Fundamental_Part_01/Theory/Topics_Covered_Solution.md)
 
 ➡️ ***Detailed Notes of My Own: -***
 - 📘 [Link to Javascript_Fundamental_Part_01_PDF_notes](./Section-02-Javascript_Fundamental_Part_01/Theory/JavaScript_Fundamentals_Part_1_Own_Detail_Notes.pdf)
