@@ -9,25 +9,25 @@
  ➡️  ***Topics Covered: -***
  - Introduction to `Javascript`
  - Linking a Javascript File
- - Values and Variables
- - Datatypes
- - Var, let, const
+ - Values and `Variables`
+ - `Datatypes`
+ - `Var`, `let`, `const`
  - Operators
-   - Arithmetic Operator
-   - Assignment Operator
-   - Comparison Operator
-   - Logical Operator
+   - `Arithmetic` Operator
+   - `Assignment` Operator
+   - `Comparison` Operator
+   - `Logical` Operator
  - Operator Precedence
- - String and Template Literals
+ - `String` and `Template Literals`
  - if-else Statement
- - Type Conversion and Coercion
- - Truthy and Falsy Values
- - == vs ===
+ - `Type Conversion` and `Coercion`
+ - `Truthy` and `Falsy` Values
+ - `==` vs `===`
  - Boolean Logic
-   - AND
-   - OR
-   - NOT
-- Switch Statement
-- Ternary Operator
+   - `AND`
+   - `OR`
+   - `NOT`
+- `Switch` Statement
+- `Ternary` Operator
      
 
