@@ -35,7 +35,7 @@
 
 
 ➡️ ***Detailed Notes of My Own: -***
-- 📘 [Link to Javascript_Fundamental_Part_01_PDF_notes](./)
+- 📘 [Link to Javascript_Fundamental_Part_01_PDF_notes](./Section-02-Javascript_Fundamental_Part_01/Section-02_Detail_Notes/JavaScript_Fundamentals_Part_1_Own_Detail_Notes.pdf)
 - ---
      
 
