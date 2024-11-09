@@ -1,4 +1,5 @@
 "use strict";
+/*
 
 let personName = true;
 
@@ -94,3 +95,29 @@ const userDetailsAndBalanceDetails = (userName, userAccountNum, amount) => {
 console.log(userDetailsAndBalanceDetails("Ajay", "BIR12000876", 200));
 console.log(userDetailsAndBalanceDetails("Raaju", "RIR120008986", 2000));
 console.log(userDetailsAndBalanceDetails("Kumar", "NIR120008643", 0));
+
+*/
+
+// * Array Data Structure
+
+const friendsName = ["Raju", "Ajay", "Vijay"];
+
+console.log(friendsName);
+
+const friendsBirthYears = new Array(2000, 1999, 1998);
+
+console.log(friendsBirthYears);
+
+console.log(friendsBirthYears.length);
+
+console.log(friendsBirthYears[friendsBirthYears.length - 1]);
+
+friendsName[2] = "Sujay";
+
+console.log(friendsName);
+
+// friendsName = ["Ravi", "Raju", "Ajay"];
+
+console.log(friendsBirthYears + 10);
+
+console.log(friendsBirthYears - 10);
