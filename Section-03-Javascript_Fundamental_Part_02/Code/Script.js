@@ -166,3 +166,17 @@ const firstFriend = friendsName3.shift();
 
 console.log(firstFriend);
 console.log(friendsName3);
+
+// * indexOf Method
+
+const friendsName4 = ["Raju", "Ajay", "Vijay", "Ajay"];
+
+console.log(friendsName4.indexOf("Ajay"));
+
+console.log(friendsName4.indexOf("Ravi"));
+
+// * Includes Method
+
+const friendsName5 = ["Raju", "Ajay", "Vijay", "Ajay"];
+
+if (friendsName5.includes("Raju")) console.log("You have friend called Raju");
