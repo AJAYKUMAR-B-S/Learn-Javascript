@@ -100,6 +100,8 @@ console.log(userDetailsAndBalanceDetails("Kumar", "NIR120008643", 0));
 
 // * Array Data Structure
 
+/*
+
 const friendsName = ["Raju", "Ajay", "Vijay"];
 
 console.log(friendsName);
@@ -121,3 +123,46 @@ console.log(friendsName);
 console.log(friendsBirthYears + 10);
 
 console.log(friendsBirthYears - 10);
+
+*/
+
+// * Array Methods
+// * Push Method
+
+/*
+const friendsName = ["Raju", "Ajay", "Vijay"];
+
+const newLength = friendsName.push("Rama");
+
+console.log(newLength);
+
+console.log(friendsName);
+
+*/
+
+// * Unshift Method
+
+const friendsName1 = ["Raju", "Ajay", "Vijay"];
+
+const newLength1 = friendsName1.unshift("sitha");
+
+console.log(newLength1);
+console.log(friendsName1);
+
+// * Pop Method
+
+const friendsName2 = ["Raju", "Ajay", "Vijay"];
+
+const lastFriend = friendsName2.pop();
+
+console.log(friendsName2);
+console.log(lastFriend);
+
+// * Shift Method
+
+const friendsName3 = ["sitha", "Raju", "Ajay", "Vijay"];
+
+const firstFriend = friendsName3.shift();
+
+console.log(firstFriend);
+console.log(friendsName3);
