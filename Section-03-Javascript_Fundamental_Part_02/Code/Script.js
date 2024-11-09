@@ -139,7 +139,7 @@ console.log(newLength);
 console.log(friendsName);
 
 */
-
+/*
 // * Unshift Method
 
 const friendsName1 = ["Raju", "Ajay", "Vijay"];
@@ -180,3 +180,27 @@ console.log(friendsName4.indexOf("Ravi"));
 const friendsName5 = ["Raju", "Ajay", "Vijay", "Ajay"];
 
 if (friendsName5.includes("Raju")) console.log("You have friend called Raju");
+
+*/
+
+// * Object
+
+const personDetails = [
+  "Ajay",
+  "kumar",
+  2024 - 1999,
+  "Coder",
+  ["Raju", "Ajay", "Vijay", "Ajay"],
+];
+
+console.log(personDetails);
+
+const personDetailsObject = {
+  firstName: "Ajay",
+  lastName: "Kumar",
+  age: 2024 - 1999,
+  profession: "Coder",
+  friends: ["Raju", "Ajay", "Vijay", "Ajay"],
+};
+
+console.log(personDetailsObject);
