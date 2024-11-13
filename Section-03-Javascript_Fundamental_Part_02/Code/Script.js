@@ -185,6 +185,7 @@ if (friendsName5.includes("Raju")) console.log("You have friend called Raju");
 
 // * Object
 
+/*
 const personDetails = [
   "Ajay",
   "kumar",
@@ -204,3 +205,43 @@ const personDetailsObject = {
 };
 
 console.log(personDetailsObject);
+
+*/
+
+const personDetailsObject = {
+  firstName: "Ajay",
+  lastName: "Kumar",
+  age: 2024 - 1999,
+  profession: "Coder",
+  friends: ["Raju", "Ajay", "Vijay", "Ajay"],
+};
+
+console.log(personDetailsObject);
+
+console.log(personDetailsObject.firstName);
+
+console.log(personDetailsObject.lastName);
+
+// * dot and Bracket Notation
+
+console.log(personDetailsObject["firstName"]);
+
+const nameKey = "Name";
+
+console.log(personDetailsObject["first" + nameKey]);
+
+console.log(personDetailsObject["last" + nameKey]);
+
+const personInput = prompt(
+  "What do you want to know about the Person? choose between firstName , LastName , age, proffession and Friends"
+);
+
+if (personDetailsObject[personInput]) {
+  console.log(personDetailsObject[personInput]);
+} else {
+  console.log("No such Key is Available");
+}
+
+console.log(
+  `${personDetailsObject.firstName} has ${personDetailsObject.friends.length} and his best friend is ${personDetailsObject.friends[0]}`
+);
