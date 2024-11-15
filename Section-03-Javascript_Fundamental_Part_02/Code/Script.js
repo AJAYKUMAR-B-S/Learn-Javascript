@@ -301,7 +301,7 @@ for (let rep = 1; rep <= 10; rep++) {
 
 //
 */
-
+/*
 //! Looping the Array
 
 const personDetailsObject = [
@@ -333,3 +333,24 @@ for (let i = 0; i < years.length; i++) {
 }
 
 console.log(listOfAgeArray);
+*/
+
+// ! Continue and Break
+
+const personDetailsObject = [
+  "Ajay",
+  "Kumar",
+  2024 - 1999,
+  "Coder",
+  ["Raju", "Ajay", "Vijay", "Ajay"],
+];
+
+const typeOfArray = [];
+
+for (let rep = 0; rep < personDetailsObject.length; rep++) {
+  if (typeof personDetailsObject[rep] !== "string") continue;
+
+  typeOfArray.push(typeof personDetailsObject[rep]);
+}
+
+console.log(typeOfArray);
