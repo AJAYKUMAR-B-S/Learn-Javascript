@@ -394,3 +394,13 @@ const personDetailsObject = [
 for (let i = personDetailsObject.length - 1; i >= 0; i--) {
   console.log(personDetailsObject[i]);
 }
+
+// ! Loop inside a Loop
+
+for (let rep = 1; rep < 3; rep++) {
+  console.log(`Starting problem ${rep} `);
+
+  for (let j = 1; j < 6; j++) {
+    console.log(`Repeating ${rep} problem ${j} times`);
+  }
+}
