@@ -248,7 +248,7 @@ console.log(
 );
 
 */
-
+/*
 const personDetailsObject = {
   firstName: "Ajay",
   lastName: "Kumar",
@@ -275,6 +275,25 @@ const personDetailsObject = {
   },
 };
 
+
 console.log(personDetailsObject.calcAge());
 console.log(personDetailsObject["calcAge"]());
 console.log(personDetailsObject.getPersonAllDetails());
+*/
+
+// ! For loop
+
+// console.log("person logged 1 time");
+// console.log("person logged 2 time");
+// console.log("person logged 3 time");
+// console.log("person logged 4 time");
+// console.log("person logged 5 time");
+// console.log("person logged 6 time");
+// console.log("person logged 7 time");
+// console.log("person logged 8 time");
+// console.log("person logged 9 time");
+// console.log("person logged 10 time");
+
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`person logged ${rep} time`);
+}
