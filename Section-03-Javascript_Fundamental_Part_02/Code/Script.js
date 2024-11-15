@@ -281,6 +281,7 @@ console.log(personDetailsObject["calcAge"]());
 console.log(personDetailsObject.getPersonAllDetails());
 */
 
+/*
 // ! For loop
 
 // console.log("person logged 1 time");
@@ -297,3 +298,38 @@ console.log(personDetailsObject.getPersonAllDetails());
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`person logged ${rep} time`);
 }
+
+//
+*/
+
+//! Looping the Array
+
+const personDetailsObject = [
+  "Ajay",
+  "Kumar",
+  2024 - 1999,
+  "Coder",
+  ["Raju", "Ajay", "Vijay", "Ajay"],
+];
+
+// ! If we Declare the CONST keyword it will throw an error
+// for (const rep = 0; rep < personDetailsObject.length; rep++) {
+//   console.log(personDetailsObject[rep]);
+// }
+
+const typeOfArray = [];
+
+for (let rep = 0; rep < personDetailsObject.length; rep++) {
+  console.log(personDetailsObject[rep]);
+  typeOfArray[rep] = typeof personDetailsObject[rep];
+}
+console.log(typeOfArray);
+
+const years = [1998, 1878, 2001, 2013];
+const listOfAgeArray = [];
+
+for (let i = 0; i < years.length; i++) {
+  listOfAgeArray.push(2024 - years[i]);
+}
+
+console.log(listOfAgeArray);
