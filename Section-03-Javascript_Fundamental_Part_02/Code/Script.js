@@ -335,6 +335,7 @@ for (let i = 0; i < years.length; i++) {
 console.log(listOfAgeArray);
 */
 
+/*
 // ! Continue and Break
 
 const personDetailsObject = [
@@ -349,6 +350,28 @@ const typeOfArray = [];
 
 for (let rep = 0; rep < personDetailsObject.length; rep++) {
   if (typeof personDetailsObject[rep] !== "string") continue;
+
+  typeOfArray.push(typeof personDetailsObject[rep]);
+}
+
+console.log(typeOfArray);
+
+*/
+
+// ! Break keyword
+
+const personDetailsObject = [
+  "Ajay",
+  "Kumar",
+  2024 - 1999,
+  "Coder",
+  ["Raju", "Ajay", "Vijay", "Ajay"],
+];
+
+const typeOfArray = [];
+
+for (let rep = 0; rep < personDetailsObject.length; rep++) {
+  if (typeof personDetailsObject[rep] === "number") break;
 
   typeOfArray.push(typeof personDetailsObject[rep]);
 }
