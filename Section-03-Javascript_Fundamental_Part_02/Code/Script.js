@@ -358,6 +358,7 @@ console.log(typeOfArray);
 
 */
 
+/*
 // ! Break keyword
 
 const personDetailsObject = [
@@ -377,3 +378,19 @@ for (let rep = 0; rep < personDetailsObject.length; rep++) {
 }
 
 console.log(typeOfArray);
+
+*/
+
+// ! Backward Loop
+
+const personDetailsObject = [
+  "Ajay",
+  "Kumar",
+  2024 - 1999,
+  "Coder",
+  ["Raju", "Ajay", "Vijay", "Ajay"],
+];
+
+for (let i = personDetailsObject.length - 1; i >= 0; i--) {
+  console.log(personDetailsObject[i]);
+}
