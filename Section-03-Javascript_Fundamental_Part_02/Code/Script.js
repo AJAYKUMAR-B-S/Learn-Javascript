@@ -381,6 +381,8 @@ console.log(typeOfArray);
 
 */
 
+/*
+
 // ! Backward Loop
 
 const personDetailsObject = [
@@ -403,4 +405,15 @@ for (let rep = 1; rep < 3; rep++) {
   for (let j = 1; j < 6; j++) {
     console.log(`Repeating ${rep} problem ${j} times`);
   }
+}
+*/
+
+// ! While Loop
+
+let random = Math.trunc(Math.random() * 6) + 1;
+
+while (random !== 6) {
+  console.log(`random num is ${random}`);
+  random = Math.trunc(Math.random() * 6) + 1;
+  console.log("-----------");
 }
