@@ -208,6 +208,7 @@ console.log(personDetailsObject);
 
 */
 
+/*
 const personDetailsObject = {
   firstName: "Ajay",
   lastName: "Kumar",
@@ -245,3 +246,35 @@ if (personDetailsObject[personInput]) {
 console.log(
   `${personDetailsObject.firstName} has ${personDetailsObject.friends.length} and his best friend is ${personDetailsObject.friends[0]}`
 );
+
+*/
+
+const personDetailsObject = {
+  firstName: "Ajay",
+  lastName: "Kumar",
+  birthYear: 1997,
+  profession: "Coder",
+  friends: ["Raju", "Ajay", "Vijay", "Ajay"],
+
+  // calcAge: function (birthYearInput) {
+  //   return 2024 - birthYearInput;
+  // },
+  // * we can Create same key name twice inside the object. js engine will mot throw the error
+  // * Learning About this keyword . this keyword will point to the current object
+  calcAge: function () {
+    this.insideFunctionVaribale = true;
+    console.log(this);
+    return 2024 - this.birthYear;
+  },
+  getPersonAllDetails: function () {
+    return `Name is ${(this.firstName, this.lastName)} and person age is ${
+      2024 - this.birthYear
+    } job is ${this.profession} and has ${
+      this.friends.length > 0 ? "a" : "no"
+    } friends ${this.friends.length > 0 ? `name are ${this.friends}` : ""}`;
+  },
+};
+
+console.log(personDetailsObject.calcAge());
+console.log(personDetailsObject["calcAge"]());
+console.log(personDetailsObject.getPersonAllDetails());
