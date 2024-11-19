@@ -43,5 +43,21 @@
 - ---
 
 ## 📚 [Javascript_Fundamental_Part_02](./Section-03-Javascript_Fundamental_Part_02/Code)
-     
 
+➡️  ***Topics Covered: -***
+
+- `Strict Mode`
+- `Functions`
+- `Function Declaration` vs `Function Expressions`
+- `Arrow Functions`
+- `Function Calling other Functions`
+- Reviewing `Functions`
+- Introduction to `Arrays`
+- Basic `Array Operations(Methods)`
+- Introduction to `Objects`
+- `Dot` vs `Bracket Notations`
+- `Object Methods`
+- `for Loop`
+- `Looping Arrays`, `Continue`, and `Break`
+- `Looping Backwards` and `Nested Loops`
+- `While Loop`
