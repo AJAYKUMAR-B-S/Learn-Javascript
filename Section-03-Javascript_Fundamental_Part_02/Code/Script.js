@@ -417,3 +417,5 @@ while (random !== 6) {
   random = Math.trunc(Math.random() * 6) + 1;
   console.log("-----------");
 }
+
+//from 15-04-2025 i started to lear web devolpment
