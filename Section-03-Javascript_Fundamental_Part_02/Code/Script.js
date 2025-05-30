@@ -419,3 +419,5 @@ while (random !== 6) {
 }
 
 //from 15-04-2025 i started to lear web devolpment
+
+console.log("hello");
