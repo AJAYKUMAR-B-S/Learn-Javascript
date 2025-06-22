@@ -37,7 +37,7 @@
  - 📘 [Topics_Covered_Solution_link](Section-02-Javascript_Fundamental_Part_01/Theory/Topics_Covered_Solution.md)
 
 ➡️ ***Detailed Notes of My Own: -***
-- 📘 [Link to Javascript_Fundamental_Part_01_PDF_notes](./Section-02-Javascript_Fundamental_Part_01/Theory/JavaScript_Fundamentals_Part_1_Own_Detail_Notes.pdf)
+- 📘 [Link to Javascript_Fundamental_Part_01_PDF_notes](./Section-02-Javascript_Fundamental_Part_01/Theory/Improved_Javscript_Fundamentals–_Part_1_Notes.pdf)
 - ---
 
 ## 📚 [Javascript_Fundamental_Part_02](./Section-03-Javascript_Fundamental_Part_02/Code)
