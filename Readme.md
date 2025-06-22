@@ -64,5 +64,5 @@
 ➡️ ***Code: -***
   - 👨‍💻 [Code_Link](./Section-03-Javascript_Fundamental_Part_02/Code)
 - ---
-## 📚 [Section-04-How to Navigate This Course](./Section-01_Welcome)
+## 📚 [Section-04-How to Navigate This Course](./Section-04-How_to_Navigate_This_Course)
 
