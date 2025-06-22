@@ -4,7 +4,7 @@
 
  ##  📂 **Contents** ✍️
 
-## 📚 [Javascript_Fundamental_Part_01](./Section-02-Javascript_Fundamental_Part_01)
+## 📚 [Section-02_Javascript_Fundamental_Part_01](./Section-02-Javascript_Fundamental_Part_01)
 
  ➡️  ***Topics Covered: -***
  - Introduction to `Javascript`
@@ -40,7 +40,7 @@
 - 📘 [Link to Javascript_Fundamental_Part_01_PDF_notes](./Section-02-Javascript_Fundamental_Part_01/Theory/Improved_Javscript_Fundamentals–_Part_1_Notes.pdf)
 - ---
 
-## 📚 [Javascript_Fundamental_Part_02](./Section-03-Javascript_Fundamental_Part_02/Code)
+## 📚 [Section-03_Javascript_Fundamental_Part_02](./Section-03-Javascript_Fundamental_Part_02/Code)
 
 ➡️  ***Topics Covered: -***
 
