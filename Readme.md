@@ -3,7 +3,7 @@
 ### 👋 Welcome to my ***Complete JavaScript Course repository!*** This repo is inspired by ***"[The Complete JavaScript Course 2024: From Zero to Expert!"](https://www.udemy.com/course/the-complete-javascript-course/)*** by ***[Jonas Schmedtmann](https://x.com/jonasschmedtman)***. It includes thorough content coverage, clear theory explanations with solutions, hands-on code examples, and my detailed personal notes to enhance learning.
 
  ##  📂 **Contents** ✍️
- ## 📚 [Section-01_Welcome](./Section-02-Javascript_Fundamental_Part_01)
+ ## 📚 [Section-01_Welcome](./Section-01_Welcome)
 
 ## 📚 [Section-02_Javascript_Fundamental_Part_01](./Section-02-Javascript_Fundamental_Part_01)
 
