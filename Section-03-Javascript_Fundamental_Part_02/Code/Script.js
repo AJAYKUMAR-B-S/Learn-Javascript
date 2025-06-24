@@ -422,3 +422,14 @@ while (random !== 6) {
 
 console.log("hello");
 console.log("Hi");
+
+function testingTest() {
+  console.log("Testing What Will Return Without return keyword ");
+}
+const testingTime = testingTest();
+console.log(testingTest);
+function noReturn() {
+  console.log("I do not return anything.");
+}
+
+let result = noReturn(); // result is undefined
