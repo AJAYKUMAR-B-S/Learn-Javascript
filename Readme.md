@@ -65,4 +65,5 @@
   - 👨‍💻 [Code_Link](./Section-03-Javascript_Fundamental_Part_02/Code)
 - ---
 ## 📚 [Section-04-How to Navigate This Course](./Section-04-How_to_Navigate_This_Course)
-
+- ---
+## 📚 [Section-5_Developer_Skills_&_Editor_Setup](./Section-5_Developer_Skills_&_Editor_Setupp)
