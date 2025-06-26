@@ -433,3 +433,18 @@ function noReturn() {
 }
 
 let result = noReturn(); // result is undefined
+
+// Function declaration  and expression
+
+function functionDeclaration() {
+  console.log("This is Function Declaration");
+}
+
+functionDeclaration();
+
+const functionExpression = function () {
+  console.log("This is Function Expression");
+};
+
+const result3 = functionExpression();
+console.log(result3);
